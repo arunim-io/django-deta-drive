@@ -1,0 +1,16 @@
+{
+  "pylint.importStrategy": "fromEnvironment",
+  "isort.importStrategy": "fromEnvironment",
+  "black-formatter.importStrategy": "fromEnvironment",
+  "python.formatting.provider": "black",
+  "python.analysis.exclude": ["**/migrations/**", "**/.venv/**"],
+  "python.linting.mypyEnabled": true,
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.autoSearchPaths": true,
+  "python.analysis.diagnosticMode": "openFilesOnly",
+  "python.analysis.importFormat": "relative",
+  "python.analysis.indexing": true,
+  "python.analysis.useLibraryCodeForTypes": true,
+  "python.analysis.typeCheckingMode": "basic",
+  "python.languageServer": "Pylance"
+}
